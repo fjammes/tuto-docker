@@ -15,9 +15,9 @@ export OS_AUTH_URL=https://api.isima.fr:5000/v2.0
 
 # With the addition of Keystone we have standardized on the term **tenant**
 # as the entity that owns the resources.
-export OS_TENANT_ID=d2521c9ab5c4452b802e50d05cee83e1
-export OS_TENANT_NAME="dsi"
-export OS_PROJECT_NAME="dsi"
+export OS_TENANT_ID=c55df008e4114c61893bc8c0f28a30ee
+export OS_TENANT_NAME="DSI"
+export OS_PROJECT_NAME="DSI"
 
 # In addition to the owning entity (tenant), OpenStack stores the entity
 # performing the action as the **user**.
