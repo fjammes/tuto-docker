@@ -1,0 +1,313 @@
+
+        Host fjammes-docker0
+        HostName 10.0.0.108
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker1
+        HostName 10.0.0.109
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker2
+        HostName 10.0.0.110
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker3
+        HostName 10.0.0.111
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker4
+        HostName 10.0.0.112
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker5
+        HostName 10.0.0.113
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker6
+        HostName 10.0.0.114
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker7
+        HostName 10.0.0.115
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker8
+        HostName 10.0.0.117
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker9
+        HostName 10.0.0.118
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker10
+        HostName 10.0.0.119
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker11
+        HostName 10.0.0.120
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker12
+        HostName 10.0.0.121
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker13
+        HostName 10.0.0.122
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker14
+        HostName 10.0.0.123
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker15
+        HostName 10.0.0.124
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker16
+        HostName 10.0.0.126
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker17
+        HostName 10.0.0.127
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker18
+        HostName 10.0.0.128
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker19
+        HostName 10.0.0.129
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker20
+        HostName 10.0.0.130
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker21
+        HostName 10.0.0.131
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker22
+        HostName 10.0.0.132
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker23
+        HostName 10.0.0.133
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-docker24
+        HostName 10.0.0.134
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
+        Host fjammes-dockerswarm
+        HostName 10.0.0.135
+        User qserv
+        Port 22
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        PasswordAuthentication no
+        ProxyCommand ssh -i ~/.ssh/id_rsa_isima -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -W %h:%p qserv@193.55.95.201
+        IdentityFile ~/.ssh/id_rsa_isima
+        IdentitiesOnly yes
+        LogLevel FATAL
+        
