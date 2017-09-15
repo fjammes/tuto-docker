@@ -3,7 +3,7 @@
 
 ```
 wget https://github.com/fjammes/tuto-docker/archive/master.zip
-unzip master.zip 
+unzip master 
 cd tuto-docker-master/provision
 gpg -d id_rsa_isima.gpg > ~/.ssh/id_rsa_isima
 cp ssh_config ~/.ssh/config
