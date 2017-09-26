@@ -1,9 +1,7 @@
-# Doker getstarted
+# Slides
 
-https://docs.docker.com/engine/getstarted/step_five/
-And
-https://docs.docker.com/engine/tutorials/
-compte docker hub 'isima' (avec 63000 à la fin pour mdp)
+Start at "Dockerfile" section.
+https://docs.docker.com/engine/userguide/storagedriver/
 
 # Slides/Exercices
 https://docs.google.com/presentation/d/1sftsDWEGIjAtQI2VZgoUVfNmqpJlD7aWrOYxUeBOKiM/edit?usp=sharing
@@ -13,3 +11,6 @@ https://github.com/fjammes/tuto-docker/tree/master/courses/3/resources/ex2/webse
 
 # Squid proxy
 https://github.com/sameersbn/docker-squid
+
+TODO: test https://docs.docker.com/get-started/part3/#introduction on
+dockerworker-1 (docker has been upgraded with `sudo yum install docker-engine`)
