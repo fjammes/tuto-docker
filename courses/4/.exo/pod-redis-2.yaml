@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: www
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    volumeMounts:
+    - mountPath: /srv/www
+      name: www-data
+      readOnly: true
+  - name: git-monitor
+    image: bravissimolabs/alpine-git 
+    env:
+    - name: GIT_REPO
+      value: https://github.com/fjammes/tuto-docker.git
+    command: ["/bin/sh"]
+    args: ["-c", "echo \"192.30.253.113 github.com\" >> /etc/hosts && git config --global http.sslVerify \"false\" && git clone $GIT_REPO /data && tail -f /dev/null"]
+    volumeMounts:
+    - mountPath: /data
+      name: www-data
+  volumes:
+  - name: www-data
+    emptyDir: {}
