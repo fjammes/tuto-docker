@@ -1,7 +1,7 @@
 # Slides
 
 Start at "Dockerfile" section.
-https://docs.docker.com/engine/userguide/storagedriver/
+http://edu.delestra.com/docker-slides/#/
 
 # Slides/Exercices
 https://docs.google.com/presentation/d/1sftsDWEGIjAtQI2VZgoUVfNmqpJlD7aWrOYxUeBOKiM/edit?usp=sharing
