@@ -1,14 +1,34 @@
-# Use travis CI: 
+`
+sudo kubeadm init
 
-* Exercice
-  - https://mike42.me/blog/how-to-set-up-docker-containers-in-travis-ci
-    https://github.com/mike42/minimal-docker-ci
-  - https://docs.travis-ci.com/user/docker/
-* Travis login via github using 'isima63' account.
+# Then join other nodes...
 
-# Advanced docker tutorial
+kubectl get pods
 
-* Network
-  - https://docs.docker.com/engine/tutorials/networkingcontainers/
-* Volumes
-  - https://docs.docker.com/engine/tutorials/dockervolumes/
+# Config
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown qserv $HOME/.kube/config
+
+# Network: Firt try without
+kubectl apply -f https://git.io/weave-kube-1.6
+
+# Seems to be usefull??
+kubectl run --image=weaveworks/hello-world hello
+
+# Fichier
+curl -O https://raw.githubusercontent.com/kubernetes/kubernetes.github.io/master/docs/user-guide/walkthrough/pod-nginx.yaml
+
+# Create pod
+kubectl create -f pod-nginx.yaml
+
+kubectl get pods
+
+kubectl run busybox --image=busybox --restart=Never --tty -i --generator=run-pod/v1 --env "POD_IP=$(kubectl get pod nginx -o go-template='{{.status.podIP}}')"
+
+# Redis
+curl -O https://raw.githubusercontent.com/kubernetes/kubernetes.github.io/master/docs/user-guide/walkthrough/pod-redis.yaml
+kubectl create -f pod-redis.yaml
+kubectl exec -it redis bash
+`
+
+
